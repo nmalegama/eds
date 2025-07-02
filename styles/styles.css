@@ -258,4 +258,5 @@ main .section.highlight {
 
 main .section.highlight {
   background-color: bisque;
+  padding: 1rem 2rem;
 }
