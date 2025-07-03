@@ -257,7 +257,7 @@ main .section.highlight {
 }
 
 main .section.highlight {
-  background-color: red;
+  background-color: yellow;
   padding: 1rem 2rem;
   margin: 2px;
 }
