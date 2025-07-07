@@ -1,0 +1,7 @@
+.imagetext.text-left .img-text__wrapper {
+    flex-direction: row-reverse;
+}
+
+.imagetext .img-text__wrapper .imgtxt-div:nth-child(2) {
+    padding: 0 1rem;
+}
