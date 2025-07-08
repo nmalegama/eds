@@ -1,10 +1,11 @@
-.imagetext.text-left .img-text__wrapper {
+.imagetext.text-left .img-text-wrapper {
     flex-direction: row-reverse;
 }
 
-.imagetext .img-text__wrapper .imgtxt-div:nth-child(2) {
+.imagetext .img-text-wrapper .imgtxt-div:nth-child(2) {
     padding: 0 1rem;
 }
+
 .imagetext.gray-bg .imgtxt-div:nth-child(2) {
     background-color: #E6E6E6;
 }
