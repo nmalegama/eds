@@ -1,5 +1,5 @@
-export default function decorate(block) {
-/*  const ctaBtn = document.createElement('Button');
+/*  export default function decorate(block) {
+const ctaBtn = document.createElement('Button');
   const itm = [...block.children][0];
   const itmProps = [...itm.children][0];
 
@@ -24,8 +24,8 @@ export default function decorate(block) {
     //ctaBtn.setAttribute('target', btnProps[0].children[2].innerHTML);
     //ctaBtn.setAttribute('href', btnProps[0].children[3].innerHTML);
   }); */
-  //ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
+  /*ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   //block.textContent = '';
   //console.log(btnProps);
   //block.append(myLink);
-}
+} */
