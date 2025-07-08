@@ -3,4 +3,5 @@ export default function decorate(block) {
   imgRow.className = 'd-flex img-text__wrapper';
   [...imgRow.children].forEach((div) => {
     div.className = 'imgtxt-div col-12 col-md-6';
-  });}
+  });
+}
