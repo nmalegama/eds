@@ -189,6 +189,11 @@ button {
   white-space: nowrap;
 }
 
+a.button, button {
+  max-width: 300px;
+  padding: 1em 1.5em !important;
+}
+
 a.button:hover,
 a.button:focus,
 button:hover,
@@ -260,4 +265,8 @@ main .section.highlight {
   background-color: yellow;
   padding: 1rem 2rem;
   margin: 2px;
+}
+
+.center-me .default-content-wrapper {
+  text-align: center;
 }
