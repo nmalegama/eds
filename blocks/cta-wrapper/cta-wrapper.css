@@ -2,9 +2,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .cta-itm {
     margin: 0 1rem;
 }
+
 .cta-itm .button {
     min-width: 250px;
 }
