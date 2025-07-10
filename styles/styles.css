@@ -165,6 +165,12 @@ a:hover {
   text-decoration: underline;
 }
 
+a.button, button {
+  width: 300px;
+  max-width: 300px;
+  padding: 1em 1.5em !important;
+}
+
 /* buttons */
 a.button:any-link,
 button {
@@ -205,9 +211,15 @@ button:disabled:hover {
 
 a.button.secondary,
 button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color);
+  background-color: transparent;
+  border: 2px solid #c10016;
+  color: #c10016;
+}
+
+a.button.primary,
+button.primary {
+  background-color: #c10016;
+  color: #fff;
 }
 
 main img {
@@ -257,6 +269,11 @@ main .section.highlight {
 }
 
 main .section.highlight {
-  background-color: bisque;
+  background-color: yellow;
   padding: 1rem 2rem;
+  margin: 2px;
+}
+
+.center-me .default-content-wrapper {
+  text-align: center;
 }
