@@ -277,3 +277,34 @@ main .section.highlight {
 .center-me .default-content-wrapper {
   text-align: center;
 }
+
+/* column layout styles */
+.col-40-60 > div > div:first-child {
+  width: 40%;
+  max-width: 40%;
+}
+
+.col-40-60 > div > div:nth-child(2) {
+  width: 60%;
+  max-width: 60%;
+}
+
+.col-20-80 > div > div:first-child {
+  width: 20%;
+  max-width: 20%;
+}
+
+.col-20-80 > div > div:nth-child(2) {
+  width: 80%;
+  max-width: 80%;
+}
+
+.col-1-11 > div > div:first-child {
+  width: calc(100%/12);
+  max-width: calc(100%/12);
+}
+
+.col-1-11 > div > div:nth-child(2) {
+  width: calc(100%*11/12);
+  max-width: calc(100%*11/12);
+}
