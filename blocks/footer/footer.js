@@ -22,7 +22,6 @@ export default async function decorate(block) {
     if (section) section.classList.add(`footer-${c}`);
   });
 
-  //const backToTop = '<div class="cmp-container"><button aria-label="back to top" title="Go to top" class="back-to-top"><span>Go to top</span> </button> </div>';
   const backToTop = document.createElement('div');
   backToTop.className = 'cmp-container';
   backToTop.innerHTML = `<button type="button" aria-label="back to top" title="Go to top" class="back-to-top">
@@ -30,13 +29,13 @@ export default async function decorate(block) {
     </button>`;
   block.before(backToTop);
 
-  const backToTopBtn = document.querySelector(".back-to-top");
-      backToTopBtn.addEventListener("click", function () {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
-        });
+  const backToTopBtn = document.querySelector('.back-to-top');
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
       });
+    });
 
   const socialLinks = footer.querySelector('.footer-logo .default-content-wrapper > ul');
   socialLinks.className = 'footer-social-links';
