@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  box-shadow: 0 .25rem .25rem 0 hsla(204, 2%, 55%, .4);
 }
 
 header nav {
@@ -73,6 +74,7 @@ header nav .nav-hamburger button {
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
+  width: auto;
 }
 
 header nav .nav-hamburger-icon,

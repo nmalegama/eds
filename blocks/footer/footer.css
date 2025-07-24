@@ -1,6 +1,7 @@
 footer {
-  background-color: var(--light-color);
+  background-color: #212322;
   font-size: var(--body-font-size-xs);
+  color: #ffffff;
 }
 
 footer .footer > div {
@@ -13,8 +14,132 @@ footer .footer p {
   margin: 0;
 }
 
+footer .cmp-container {
+  background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    max-width: 1200px;
+}
+
+footer .back-to-top {
+        position: absolute;
+        right: 16px;
+        top: -44px;
+        z-index: 99;
+        background-color: #212322;
+        width: 60px;
+        height: 44px;
+        border: 0;
+        outline: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 0;
+}
+
+footer .back-to-top span {
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+footer .section {
+  width: 100%;
+  max-width: 100%;
+}
+
+footer .icon-CU-footer-logo {
+  width: 170px;
+  height: auto;
+  max-width: 170px;
+}
+
+footer .footer-social-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 0;
+}
+
+footer .footer-social-links li {
+  flex: 1;
+}
+
+footer .section.footer-links .default-content-wrapper > ul {
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+footer .link-list > ul {
+    list-style: none;
+    padding-left: 0;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+footer .link-list > ul li {
+  margin-bottom: 8px;
+}
+
+footer .section.footer-links a,  footer .section.footer-disclaimer a {
+  color: #ffffff;
+}
+
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
+  }
+}
+
+@media (width >= 768px) {
+
+  footer .back-to-top {
+    right: 36px;
+  }
+}
+
+@media (width >= 992px) {
+
+  footer .back-to-top {
+    right: 0;
+    top: -56px;
+  }
+
+  footer .footer > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer .section.footer-logo {
+    width: 16%;
+    max-width: 16%;
+  }
+  
+  footer .section.footer-links {
+    width: 84%;
+    max-width: 84%;
+  }
+  
+  footer .section.footer-disclaimer {
+    flex-basis: 100%;
+  }
+
+  footer .link-list {
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-width: 25%;
   }
 }
