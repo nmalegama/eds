@@ -30,12 +30,12 @@ export default async function decorate(block) {
   block.before(backToTop);
 
   const backToTopBtn = document.querySelector('.back-to-top');
-    backToTopBtn.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
     });
+  });
 
   const socialLinks = footer.querySelector('.footer-logo .default-content-wrapper > ul');
   socialLinks.className = 'footer-social-links';
@@ -44,7 +44,7 @@ export default async function decorate(block) {
   linkParent.className = 'footer-links-list';
 
   footer.querySelectorAll('.footer-links .default-content-wrapper > ul > li').forEach((liItm) => {
-    liItm.className = "link-list";
+    liItm.className = 'link-list';
   });
 
   block.append(footer);
