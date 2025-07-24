@@ -1,7 +1,7 @@
 footer {
   background-color: #212322;
   font-size: var(--body-font-size-xs);
-  color: #ffffff;
+  color: #fff;
 }
 
 footer .footer > div {
@@ -43,12 +43,11 @@ footer .back-to-top {
 }
 
 footer .back-to-top span {
-  border: solid #ffffff;
+  border: solid #fff;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
   transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
 }
 
 footer .section {
@@ -56,7 +55,7 @@ footer .section {
   max-width: 100%;
 }
 
-footer .icon-CU-footer-logo {
+footer .icon-cu-footer-logo {
   width: 170px;
   height: auto;
   max-width: 170px;
@@ -73,21 +72,21 @@ footer .footer-social-links li {
   flex: 1;
 }
 
+footer .link-list > ul {
+    list-style: none;
+    padding-left: 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
 footer .section.footer-links .default-content-wrapper > ul {
   list-style: none;
   display: flex;
   font-size: 15px;
-    line-height: 22px;
-    font-weight: 700;
-}
-
-footer .link-list > ul {
-    list-style: none;
-    padding-left: 0;
-    color: #ffffff;
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: 400;
+  line-height: 22px;
+  font-weight: 700;
 }
 
 footer .link-list > ul li {
@@ -95,7 +94,7 @@ footer .link-list > ul li {
 }
 
 footer .section.footer-links a,  footer .section.footer-disclaimer a {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (width >= 900px) {
@@ -105,14 +104,12 @@ footer .section.footer-links a,  footer .section.footer-disclaimer a {
 }
 
 @media (width >= 768px) {
-
   footer .back-to-top {
     right: 36px;
   }
 }
 
 @media (width >= 992px) {
-
   footer .back-to-top {
     right: 0;
     top: -56px;
