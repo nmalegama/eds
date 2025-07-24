@@ -266,3 +266,11 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+header a.button.primary {
+  border-radius: 6px;
+    font-size: 15px;
+    width: auto;
+    padding: 4px 16px !important;
+    font-weight: 700;
+}
