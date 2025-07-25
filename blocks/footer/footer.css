@@ -81,6 +81,12 @@ footer .link-list > ul {
     font-weight: 400;
 }
 
+footer .footer-carousel .default-content-wrapper ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
 footer .section.footer-links .default-content-wrapper > ul {
   list-style: none;
   display: flex;
@@ -100,12 +106,6 @@ footer .section.footer-links a,  footer .section.footer-disclaimer a {
 footer .footer-carousel {
   margin-top: 1rem;
   border-top: 2px solid #fff;
-}
-
-footer .footer-carousel .default-content-wrapper ul {
-  list-style: none;
-  display: flex;
-  padding-left: 0;
 }
 
 footer .footer-carousel ul li {
