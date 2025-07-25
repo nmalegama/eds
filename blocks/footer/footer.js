@@ -16,7 +16,7 @@ export default async function decorate(block) {
   const footer = document.createElement('div');
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
-  const classes = ['logo', 'links', 'disclaimer'];
+  const classes = ['logo', 'links', 'disclaimer', 'carousel'];
   classes.forEach((c, i) => {
     const section = footer.children[i];
     if (section) section.classList.add(`footer-${c}`);

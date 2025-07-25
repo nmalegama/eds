@@ -308,3 +308,13 @@ main .section.highlight {
   width: calc(100%*11/12);
   max-width: calc(100%*11/12);
 }
+
+.col-8-4 > div > div:first-child {
+  width: calc(100%*8/12);
+  max-width: calc(100%*8/12);
+}
+
+.col-8-4 > div > div:nth-child(2) {
+  width: calc(100%*4/12);
+  max-width: calc(100%*4/12);
+}

@@ -97,6 +97,27 @@ footer .section.footer-links a,  footer .section.footer-disclaimer a {
   color: #fff;
 }
 
+footer .footer-carousel {
+  margin-top: 2rem;
+  border-top: 2px solid #fff;
+}
+
+footer .footer-carousel ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+footer .footer-carousel ul li {
+  flex-grow: 1;
+}
+
+footer .footer-carousel ul .icon {
+  width: 150px;
+  max-width: 130px;
+  height: auto;
+}
+
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
