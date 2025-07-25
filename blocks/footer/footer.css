@@ -98,11 +98,11 @@ footer .section.footer-links a,  footer .section.footer-disclaimer a {
 }
 
 footer .footer-carousel {
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-top: 2px solid #fff;
 }
 
-footer .footer-carousel ul {
+footer .footer-carousel .default-content-wrapper ul {
   list-style: none;
   display: flex;
   padding-left: 0;
