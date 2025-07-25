@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  box-shadow: 0 .25rem .25rem 0 #8a8a8a;
 }
 
 header nav {
@@ -73,6 +74,7 @@ header nav .nav-hamburger button {
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
+  width: auto;
 }
 
 header nav .nav-hamburger-icon,
@@ -265,4 +267,12 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+header a.button.primary {
+  border-radius: 6px;
+    font-size: 15px;
+    width: auto;
+    padding: 4px 16px !important;
+    font-weight: 700;
 }

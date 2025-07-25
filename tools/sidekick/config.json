@@ -28,13 +28,6 @@
         "**/fr/blocks/**"
       ],
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
-    },
-    {
-      "id": "library",
-      "title": "Block Library",
-      "environments": ["edit"],
-      "url": "/tools/sidekick/library.html",
-      "includePaths": ["**.docx**"]
     }
   ]
 }
