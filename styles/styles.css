@@ -310,11 +310,24 @@ main .section.highlight {
 }
 
 .col-8-4 > div > div:first-child {
-  width: calc(100%*8/12);
-  max-width: calc(100%*8/12);
+  width: 100%;
+  max-width: 100%;
 }
 
 .col-8-4 > div > div:nth-child(2) {
-  width: calc(100%*4/12);
-  max-width: calc(100%*4/12);
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (width >= 900px) {
+  .col-8-4 > div > div:first-child {
+    width: calc(100%*8/12);
+    max-width: calc(100%*8/12);
+  }
+
+.col-8-4 > div > div:nth-child(2) {
+    width: calc(100%*4/12);
+    max-width: calc(100%*4/12);
+  }
 }
