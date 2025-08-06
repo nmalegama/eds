@@ -91,9 +91,13 @@ footer .link-list > ul li {
   margin-bottom: 8px;
 }
 
+footer .footer-carousel ul li {
+  flex-grow: 1;
+}
+
 footer .footer-carousel .default-content-wrapper ul li {
   width: 50%;
-  max-width: 50%;
+  max-width: unset;
 }
 
 footer .section.footer-links .default-content-wrapper > ul {
@@ -112,10 +116,6 @@ footer .section.footer-links a,  footer .section.footer-disclaimer a {
 footer .footer-carousel {
   margin-top: 1rem;
   border-top: 2px solid #fff;
-}
-
-footer .footer-carousel ul li {
-  flex-grow: 1;
 }
 
 footer .footer-carousel ul .icon {
@@ -185,12 +185,12 @@ footer .link-list {
     margin-top: 0;
   }
 
+  footer .footer-social-links li {
+    flex: 1;
+  }
+
   footer .footer-carousel .default-content-wrapper ul li {
     width: auto;
     max-width: auto;
-  }
-
-  footer .footer-social-links li {
-    flex: 1;
   }
 }
