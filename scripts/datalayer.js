@@ -1,6 +1,6 @@
 window.cudatalayer = {};
 
-(function (datalayer) {
+/*(function (datalayer) {
     'use strict';
 
     datalayer.pushEloquaPersonId = function () {
@@ -62,4 +62,4 @@ window.cudatalayer = {};
     };
 
     datalayer.init();
-})(cudatalayer);
+})(cudatalayer); */
