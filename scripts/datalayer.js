@@ -1,6 +1,7 @@
 window.cudatalayer = {};
 
-/*(function (datalayer) {
+/*
+(function (datalayer) {
     'use strict';
 
     datalayer.pushEloquaPersonId = function () {
@@ -49,9 +50,10 @@ window.cudatalayer = {};
     datalayer.init = function () {
         window.dataLayer = window.dataLayer || [];
 
-        // As Adobe launch script is being loaded asynchronously, we have to wait for it the whole page to load, as there is no
-        // known event for load of adobe launch. Can be removed if adobe launch is not required or there is some specific event
-        // for the launch script load. Also for CU PMLP we are loading jquery with defer, so to avoid race condition, calling 
+        // As Adobe launch script is being loaded asynchronously, we have to wait for it the whole page to load,
+        // as there is no known event for load of adobe launch. Can be removed if adobe launch is not required
+        // or there is some specific event for the launch script load.
+        // Also for CU PMLP we are loading jquery with defer, so to avoid race condition, calling 
         // pushEloquaPersonId when everything loads
         window.addEventListener('load', function() {
             datalayer.pushAdobeVisitorId();
@@ -62,4 +64,5 @@ window.cudatalayer = {};
     };
 
     datalayer.init();
-})(cudatalayer); */
+})(cudatalayer); 
+*/
