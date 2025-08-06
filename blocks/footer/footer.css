@@ -87,6 +87,10 @@ footer .footer-carousel .default-content-wrapper ul {
   flex-wrap: wrap;
 }
 
+footer .link-list > ul li {
+  margin-bottom: 8px;
+}
+
 footer .footer-carousel .default-content-wrapper ul li {
   width: 50%;
   max-width: 50%;
@@ -99,10 +103,6 @@ footer .section.footer-links .default-content-wrapper > ul {
   line-height: 22px;
   font-weight: 700;
   flex-flow: column;
-}
-
-footer .link-list > ul li {
-  margin-bottom: 8px;
 }
 
 footer .section.footer-links a,  footer .section.footer-disclaimer a {
