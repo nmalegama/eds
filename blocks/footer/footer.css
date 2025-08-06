@@ -191,6 +191,6 @@ footer .link-list {
 
   footer .footer-carousel .default-content-wrapper ul li {
     width: auto;
-    max-width: auto;
+    max-width: unset;
   }
 }
