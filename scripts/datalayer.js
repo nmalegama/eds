@@ -1,6 +1,5 @@
 window.cudatalayer = {};
 
-/*
 (function (datalayer) {
     'use strict';
 
@@ -66,4 +65,4 @@ window.cudatalayer = {};
 
     datalayer.init();
 })(cudatalayer);
-*/
+
